@@ -21,10 +21,9 @@ app.add_middleware(
 )
 
 # ================= KONFIGURASI =================
-# Sesuaikan dengan hasil training kamu
+
 MODEL_PATH  = "/tmp/tb_audio_model_ros_cw.h5"
-GDRIVE_ID   = "1GANTI_DENGAN_ID_GDRIVE_KAMU"   # ← ganti ini
-THRESHOLD   = 0.35   # ← ganti dengan best_threshold dari output training
+THRESHOLD   = 0.5   
 
 # ================= LOAD MODEL =================
 if not os.path.exists(MODEL_PATH):
