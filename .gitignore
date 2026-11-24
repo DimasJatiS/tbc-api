@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Local tooling
+.omc/
+.DS_Store
